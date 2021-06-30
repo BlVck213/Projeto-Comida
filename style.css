@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.compras-icon{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff914d;
+    position: absolute;
+    border-radius: 0% 50% 50% 50%;
+}
+header img{
+    margin-top: 33px;
+    margin-left: 33px;
+    width: 40px;
+    height: 40px;
+    left: 6px;
+    top: 6px;
+    position: relative;
+}
+.titulo{
+    position: relative;
+    float: left;
+    margin: 150px 150px 150px 0px;
+    transform: rotate(270deg);
+    color: #ff914d;
+    font-size: 60px;
+    padding-top: 90px;
+
+}
+main p{
+    font-size: 50px;
+    max-width: 800px;
+    color: #ff914d;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+main a{
+    display: flex;
+    width: 220px;
+    height: 70px ;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff914d;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 400px;
+    border-radius: 5px;
+    transition: all 500ms;
+    user-select: none;
+}
+main a:hover{
+    border: solid 6px #ff914d;
+    background-color: black;
+    user-select: none;
+}
+
+
+footer{
+    justify-content: last baseline;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
