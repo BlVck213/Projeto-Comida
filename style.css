@@ -52,7 +52,7 @@ main p{
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
-main a{
+.link a{
     display: flex;
     width: 220px;
     height: 70px ;
@@ -182,12 +182,12 @@ main a:hover{
     width: 110px;
     height: 110px;
     transition: 0.5s;
-    user-select: none;
+    
 }
 .prato2:hover{
     width: 90px;
     height: 90px;
     transition: 0.5s;
-    user-select: none;
+   
 }
 
