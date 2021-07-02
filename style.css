@@ -68,7 +68,7 @@ main p{
     transition: all 500ms;
     user-select: none;
 }
-main a:hover{
+.link a:hover{
     border: solid 6px #ff914d;
     background-color: black;
     user-select: none;
