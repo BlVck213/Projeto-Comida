@@ -107,6 +107,15 @@ main a:hover{
     position: absolute;
 
 }
+.coracao{
+    top: 600px;
+    left: 1200px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
 
 .textQuesadilla{
     position: absolute;
@@ -118,7 +127,55 @@ main a:hover{
     margin-left: 20px;
 }
 
+.burrito{
+    top: 600px;
+    left: 1400px; 
+    width: 120px;
+    height: 175px;
+    background-color:  white;
+    border-radius:  15% 15% 15% 15%;
+    opacity: 0.7;
+    position: absolute;
+}
+.prato2{
+    top: 600px;
+    left: 1400px; 
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
 
+.estrelas2{
+    top: 600px;
+    left: 1400px; 
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.coracao2{
+    top: 600px;
+    left: 1400px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.textBurrito{
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    top: 600px;
+    left: 1400px; 
+    margin-top: 110px;
+    margin-left: 20px;
+}
 
  
 
